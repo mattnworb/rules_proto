@@ -57,7 +57,7 @@ def get_sha1(name, default, kwargs):
 def com_google_protobuf(**kwargs):
     name = "com_google_protobuf"
     ref = get_ref(name, "48cb18e5c419ddd23d9badcfe4e9df7bde1979b2", kwargs) # ref referenced by com_github_grpc_grpc
-    sha256 = get_sha256(name, "013cc34f3c51c0f87e059a12ea203087a7a15dca2e453295345e1d02e2b9634c", kwargs)
+    sha256 = get_sha256(name, "f5a35e17fb07f3b13517264cd17a089636fcbb2912f9df7bef7414058969a8d2", kwargs)
     github_archive(name, "google", "protobuf", ref, sha256)
 
 
